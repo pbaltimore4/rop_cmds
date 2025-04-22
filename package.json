@@ -1,0 +1,17 @@
+{
+  "name": "rop_cmds",
+  "version": "1.0.0",
+  "description": "extract commands from ROPS",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "glob": "^11.0.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-text-reader": "^5.1.0"
+  },
+  "author": "Perry Baltimore",
+  "license": "ISC"
+}
