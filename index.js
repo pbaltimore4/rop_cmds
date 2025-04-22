@@ -11,11 +11,11 @@ async function main(){
   try {
 
     // read cmd file
-    const cmdFile = path.join(__dirname, 'inputs/cmd_flight_revp.txt');
+    const cmdFile = path.join(__dirname, 'inputs/cmd.txt');
     const cmds = await readLines(cmdFile);
 
     // read tlm file
-    const tlmFile = path.join(__dirname, 'inputs/tlm_flight_revp.txt');
+    const tlmFile = path.join(__dirname, 'inputs/tlm.txt');
     const tlms = await readLines(tlmFile);
 
     // get list of rops
